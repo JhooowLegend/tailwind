@@ -3,7 +3,12 @@ export default {
   content: ["./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        graphic: ['Graphic', 'sans-serif'],
+        'graphic-bold': ['Graphic-bold', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
